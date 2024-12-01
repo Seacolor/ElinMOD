@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+	<title>Pet Operation</title>
+	<id>com.seacolorswind.pet_operation</id>
+	<author>Tomy</author>
+	<loadPriority>100</loadPriority>
+	<description>
+		You can set your pet's vanguard/rear guard.
+
+		ペットの前衛/後衛を設定できます
+	</description>
+	<version>1.0.0</version>
+</Meta>
