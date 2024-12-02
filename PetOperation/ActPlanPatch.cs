@@ -8,6 +8,10 @@ namespace PetOperation
     public class ActPlanPatch
     {
         static void Postfix(ActPlan __instance) {
+            if (ActPlan.warning)
+            {
+                return;
+            }
             if (!__instance.pos.IsValid || EClass.pc.isDead)
             {
                 return;

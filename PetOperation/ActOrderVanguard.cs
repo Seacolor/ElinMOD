@@ -12,7 +12,7 @@
         {
             get
             {
-                return 3;
+                return 2;
             }
         }
 
@@ -22,17 +22,6 @@
                 return false;
             }
             if (Act.CC.Dist(Act.TC) > this.PerformDistance)
-            {
-                return false;
-            }
-            if (this.PerformDistance == 1)
-            {
-                if (!Act.CC.CanInteractTo(Act.TC))
-                {
-                    return false;
-                }
-            }
-            else if (!Act.CC.CanSeeLos(Act.TC, -1, false))
             {
                 return false;
             }
