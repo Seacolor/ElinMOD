@@ -40,7 +40,7 @@
         }
 
         public override string GetText(string str = "") {
-            return Lang.isJP ? "後衛にする" : "Order the rear guard";
+            return Lang.Get("actOrderRearGuard");
         }
     }
 }
