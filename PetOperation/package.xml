@@ -1,13 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Meta>
-	<title>Pet Operation</title>
-	<id>com.seacolorswind.pet_operation</id>
-	<author>Tomy</author>
-	<loadPriority>100</loadPriority>
-	<description>
-		You can set your pet's vanguard/rear guard.
+    <title>Pet Operation</title>
+    <id>com.seacolorswind.pet_operation</id>
+    <author>Tomy</author>
+    <loadPriority>100</loadPriority>
+    <description>
+[h1]Pet Operation[/h1]
 
-		ペットの前衛/後衛を設定できます
-	</description>
-	<version>0.23.46</version>
+[h2]Overview[/h2]
+
+You can individually instruct your pets to perform combat actions.
+Currently the following settings are supported.
+
+[list]
+[*] Formation.
+[/list]
+
+[h2]Details[/h2]
+
+[h3]Formation[/h3]
+
+You can specify the vanguard/rear guard.
+
+Pets in the vanguard will push the pets in the rear guard to the front.
+    </description>
+    <version>0.23.46</version>
 </Meta>
