@@ -44,8 +44,16 @@
       <HintPath>D:\SteamLibrary\steamapps\common\Elin\BepInEx\core\BepInEx.Unity.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Elin">
       <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Elin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Heathen.Steamworks">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Heathen.Steamworks.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Newtonsoft.Json">
@@ -107,10 +115,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <None Include="General.xlsx">
+    <None Include="CN\Game\General.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="Lang\CN\Game\General.xlsx">
+    <None Include="General.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>

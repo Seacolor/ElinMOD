@@ -1,24 +1,38 @@
-﻿using System.IO;
+﻿using System;
+using System.IO;
 using BepInEx;
+using Steamworks;
 
 using HarmonyLib;
 
 namespace PetOperation
 {
-    [BepInPlugin("com.seacolorswind.pet_operation", "Pet Operation", "1.1.0")]
     public class ModPetOperation : BaseUnityPlugin
     {
         public void OnStartCore()
         {
             string dir = Path.GetDirectoryName(Info.Location);
             string excelGeneral = null;
-            if (Lang.langCode == "CN")
+            string langCode = "JP";
+            if (Core.Instance.config != null)
             {
-                excelGeneral = dir + "/Lang/CN/Game/General.xlsx";
+                langCode = Core.Instance.config.lang;
             }
             else
             {
-                excelGeneral = dir + "/General.xlsx";
+                string currentGameLanguage = SteamApps.GetCurrentGameLanguage();
+                if (currentGameLanguage == "chinese")
+                {
+                    langCode = "CN";
+                }
+            }
+            if (langCode == "CN")
+            {
+                excelGeneral = $"{dir}{Path.DirectorySeparatorChar}CN{Path.DirectorySeparatorChar}Game{Path.DirectorySeparatorChar}General.xlsx";
+            }
+            else
+            {
+                excelGeneral = $"{dir}{Path.DirectorySeparatorChar}General.xlsx";
             }
             ModUtil.ImportExcel(excelGeneral, "General", Core.Instance.sources.langGeneral);
         }
