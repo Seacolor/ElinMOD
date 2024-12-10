@@ -7,7 +7,7 @@ using HarmonyLib;
 
 namespace PetOperation
 {
-    [BepInPlugin("com.seacolorswind.pet_operation", "Pet Operation", "1.1.1")]
+    [BepInPlugin("com.seacolorswind.pet_operation", "Pet Operation", "1.1.2")]
     public class ModPetOperation : BaseUnityPlugin
     {
         public void OnStartCore()
