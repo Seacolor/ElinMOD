@@ -9,7 +9,7 @@ namespace PetOperation
     [HarmonyPatch(typeof(GameIO), nameof(GameIO.SaveGame))]
     public class GameIOSaveGamePatch
     {
-        static void Postfix(GameIO __instance) {
+        static void Prefix() {
             string text = JsonConvert.SerializeObject(OperationManager.globalOperations, GameIO.formatting, GameIO.jsWriteGame);
             string path = GameIO.pathCurrentSave + "operation.txt";
             if (GameIO.compressSave) {
