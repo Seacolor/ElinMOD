@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetOperation", "PetOperation\PetOperation.csproj", "{04B1882C-0C8A-4327-81CD-96E75534C48F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanalinOfWater", "DanalinOfWater\DanalinOfWater.csproj", "{C2610700-A154-45B2-8B5A-21A18850DFA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{04B1882C-0C8A-4327-81CD-96E75534C48F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04B1882C-0C8A-4327-81CD-96E75534C48F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04B1882C-0C8A-4327-81CD-96E75534C48F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
