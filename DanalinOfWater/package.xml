@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+    <title>Danalin of Water</title>
+    <id>com.seacolorswind.danalin_of_water</id>
+    <author>Tomy</author>
+    <loadPriority>100</loadPriority>
+    <description>
+        ### [h1]Danalin of Water[/h1]
+
+        ### [h2]Overview[/h2]
+
+        This mod introduces a new faith, **"Danalin of Water"**.
+        The faith bonuses fluctuate daily, and the bonuses increase as the insanity rises.
+
+        ### [h2]Details[/h2]
+
+        #### [h3]Favored Offerings[/h3]
+
+        [list]
+        [*] Corpses
+        [*] Body parts
+        [/list]
+
+        #### [h3]Faith Bonuses[/h3]
+
+        [list]
+        [*] Insanity
+        [/list]
+
+        Other faith bonuses vary depending on the day.
+
+        Additionally, the higher the insanity, the greater the faith bonuses become, and additional effects are activated.
+
+        #### [h3]Additional Effects from Insanity[/h3]
+
+        [list]
+        [*] 10: Detect Faith
+        [*] 20: Immunity to dim caused by insanity
+        [*] 30: See Invisible
+        [*] 40: Immunity to confusion caused by insanity
+        [*] 50: Immunity to fear caused by insanity
+        [/list]
+
+        #### [h3]Faith Rewards[/h3]
+
+        [olist]
+        [*] Drown
+        [*] Amulet of the seas
+        [/olist]
+
+        #### [h3]Drown[/h3]
+
+        [list]
+        [*] Possesses feats such as Fear from the Stars, See Invisible, and Underwater Breathing
+        [*] Can use the Eye Of Insanity
+        [/list]
+
+        #### [h3]Amulet of the seas[/h3]
+
+        [list]
+        [*] Enchanted with Underwater Breathing, Charisma, and Swimming
+        [*] Provides faction bonuses for all crafting skills
+        [/list]
+
+        #### [h3]Altars[/h3]
+
+        By installing this mod, water altars will appear among the altars placed in fields and Nefias.
+
+        ### [h2]Notes[/h2]
+
+        The redistribution of image assets used in this mod is strictly prohibited.
+    </description>
+    <version>0.23.152</version>
+    <tags>Integration,Item,NPC</tags>
+    <visibility>Private</visibility>
+</Meta>
