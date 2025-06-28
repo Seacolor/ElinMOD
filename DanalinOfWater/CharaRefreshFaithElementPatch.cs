@@ -34,7 +34,7 @@ namespace DanalinOfWater
             }
             int SAN = __instance.SAN.GetValue();
             // Bonuses for random based on insanity
-            Rand.SetSeed(EClass.world.date.GetRawDay());
+            Rand.SetSeed(GetRawWeek());
             IList<SourceElement.Row> elementList = EClass.sources.elements.rows.Where((SourceElement.Row e) => (e.category == "ability" && e.tag.Contains("primary")) || (e.isSkill && !e.tag.Contains("unused") && e.id != 306)).ToList().Shuffle();
             int[] array = new int[10];
             for (int i = 0; i < 5; i++)
@@ -69,6 +69,11 @@ namespace DanalinOfWater
                 __instance.faithElements.SetBase(ENC.seeInvisible, 1);
             }
             __instance.faithElements.SetParent(__instance);
+        }
+
+        static int GetRawWeek()
+        {
+            return (EClass.world.date.day / 7) * 1440 + EClass.world.date.month * 43200 + EClass.world.date.year * 518400;
         }
     }
 }
