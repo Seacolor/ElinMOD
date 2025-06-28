@@ -35,7 +35,7 @@ namespace DanalinOfWater
             int SAN = __instance.SAN.GetValue();
             // Bonuses for random based on insanity
             Rand.SetSeed(EClass.world.date.GetRawDay());
-            IList<SourceElement.Row> elementList = EClass.sources.elements.rows.Where((SourceElement.Row e) => e.type == "AttbMain" || (e.group == "SKILL" && e.category == "skill" && e.id != 306)).ToList().Shuffle();
+            IList<SourceElement.Row> elementList = EClass.sources.elements.rows.Where((SourceElement.Row e) => (e.category == "ability" && e.tag.Contains("primary")) || (e.isSkill && !e.tag.Contains("unused") && e.id != 306)).ToList().Shuffle();
             int[] array = new int[10];
             for (int i = 0; i < 5; i++)
             {
