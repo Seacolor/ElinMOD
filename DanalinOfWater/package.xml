@@ -70,7 +70,7 @@
 
         The redistribution of image assets used in this mod is strictly prohibited.
     </description>
-    <version>0.23.152</version>
+    <version>0.23.200</version>
     <tags>Integration,Item,NPC</tags>
-    <visibility>Private</visibility>
+    <visibility>Public</visibility>
 </Meta>
