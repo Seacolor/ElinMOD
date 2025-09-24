@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetOperation", "PetOperatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanalinOfWater", "DanalinOfWater\DanalinOfWater.csproj", "{C2610700-A154-45B2-8B5A-21A18850DFA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWithMillionLives", "CatWithMillionLives\CatWithMillionLives.csproj", "{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +23,15 @@ Global
 		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2610700-A154-45B2-8B5A-21A18850DFA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03E89D55-66B7-4C0D-936F-B26B55F16333}
 	EndGlobalSection
 EndGlobal
