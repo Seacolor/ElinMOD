@@ -4,26 +4,21 @@
     <id>com.seacolorswind.pet_operation</id>
     <author>Tomy</author>
     <loadPriority>100</loadPriority>
-    <description>
-[h1]Pet Operation[/h1]
-
-[h2]Overview[/h2]
-
-You can individually instruct your pets to perform combat actions.
-Currently the following settings are supported.
-
-[list]
-[*] Formation.
+    <description>[h1]Overview[/h1]
+You can individually instruct your pets to perform combat actions. Currently the following settings are supported.
+[list][*]Attack Target
+[*]Formation
 [/list]
-
-[h2]Details[/h2]
-
-[h3]Formation[/h3]
-
+[h1]Details[/h1]
+[h2]Attack Target[/h2]
+[list][*]Free
+[*]Target the same enemy as your allies
+[*]Target the same enemy as your master.
+[/list]
+They will prioritize attacking the designated target.
+[h2]Formation[/h2]
 You can specify the vanguard/rear guard.
-
-Pets in the vanguard will push the pets in the rear guard to the front.
-    </description>
-    <version>0.23.82</version>
+Pets in the vanguard will push the pets in the rear guard to the front.</description>
+    <version>0.23.209</version>
     <tags>General,QoL</tags>
 </Meta>

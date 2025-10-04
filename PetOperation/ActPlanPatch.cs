@@ -55,15 +55,7 @@ namespace PetOperation
                     }
                     if (flag3 || __instance.altAction)
                     {
-                        Operation o = OperationManager.globalOperations.Find(chara.uid);
-                        if (o == null || !o.isVanguard)
-                        {
-                            __instance.TrySetAct(OACT.OrderVanguard, chara);
-                        }
-                        else
-                        {
-                            __instance.TrySetAct(OACT.OrderRearGuard, chara);
-                        }
+                        __instance.TrySetAct(OACT.ReviseOperation, chara);
                     }
                 }
             });
