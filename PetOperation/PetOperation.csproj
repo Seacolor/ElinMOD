@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PetOperation</RootNamespace>
     <AssemblyName>PetOperation</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -18,7 +18,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
+    <OutputPath>..\..\..\SteamLibrary\steamapps\common\Elin\Package\Mod_PetOperation\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -88,10 +88,15 @@
       <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="YKFramework">
+      <HintPath>..\..\..\SteamLibrary\steamapps\workshop\content\2135150\3400020753\YKFramework.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActOrderRearGuard.cs" />
-    <Compile Include="ActOrderVanguard.cs" />
+    <Compile Include="ActReviseOperation.cs" />
+    <Compile Include="CharaDoHostileActionPatch.cs" />
+    <Compile Include="CharaFindNewEnemyPatch.cs" />
     <Compile Include="CharaRemoveGlobalPatch.cs" />
     <Compile Include="CharaCanReplacePatch.cs" />
     <Compile Include="CharaTryPushPatch.cs" />
@@ -99,11 +104,13 @@
     <Compile Include="GameIOSaveGamePatch.cs" />
     <Compile Include="OACT.cs" />
     <Compile Include="OperationIO.cs" />
+    <Compile Include="OperationLayer.cs" />
     <Compile Include="OperationManager.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="ActPlanPatch.cs" />
     <Compile Include="ModPetOperation.cs" />
     <Compile Include="GlobalOperationList.cs" />
+    <Compile Include="OperationTab.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -118,9 +125,12 @@
     <None Include="CN\Game\General.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="README.zh-Hans.md" />
     <None Include="General.xlsx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="README.ja.md" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

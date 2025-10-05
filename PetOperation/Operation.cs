@@ -6,5 +6,7 @@ namespace PetOperation
     {
         [JsonProperty]
         public bool isVanguard;
+        [JsonProperty]
+        public int targetEnemy = 0;
     }
 }
