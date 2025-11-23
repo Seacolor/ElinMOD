@@ -3,8 +3,8 @@
 This mod introduces a new faith, **"Cat with Million lives"**.
 This faith will protect you and your pets from death.
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Seacolor/ElinMOD/blob/main/DanalinOfWater/README.md)
-[![ja](https://img.shields.io/badge/lang-ja-green.svg)](https://github.com/Seacolor/ElinMOD/blob/main/DanalinOfWater/README.ja.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Seacolor/ElinMOD/blob/main/CatWithMillionLives/README.md)
+[![ja](https://img.shields.io/badge/lang-ja-green.svg)](https://github.com/Seacolor/ElinMOD/blob/main/CatWithMillionLives/README.ja.md)
 
 # Details
 
