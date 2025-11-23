@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Meta>
+	<title>Cat with Million lives</title>
+	<id>com.seacolorswind.cat_with_million_lives</id>
+	<author>Tomy</author>
+	<loadPriority>100</loadPriority>
+	<description>[h1]Overview[/h1]
+This mod introduces a new faith, [b]"Cat with Million lives"[/b]. This faith will protect you and your pets from death.
+[h1]Details[/h1]
+[h2]Favored Offerings[/h2]
+[list][*]Corpses
+[*]bonito flakes
+[*]sake barrel
+[/list]
+[h2]Faith Bonuses[/h2]
+[list][*]Speed
+[*]Magic
+[*]Stealth
+[*]Pickpocket
+[*]Anatomy
+[/list]
+[h2]Faith Ability[/h2]
+[list][*]Resurrection of the Soul
+[/list]
+[h3]Resurrection of the Soul[/h3]
+[list][*]Call an ally back from the world of the dead
+[/list]
+[spoiler]
+[h2]Faith Rewards[/h2]
+[olist][*]Nine lives the bake-neko (Pet)
+[*]Cat's Bell (Artifact)
+[/olist]
+[h3]Nine lives the bake-neko[/h3]
+[list][*]Possesses feats Celestical Cat, Fluffy Tail, Boost, and Levitation.
+[*]When grown by the feet of the Celestical Cat, tails increase, raising speed, mana, and fire resistance (up to a maximum of 7 tails).
+[*]Can use Fire Bolt, Fire Ball, Fire Sword, and Resurrection.
+[/list]
+[h3]Cat's Bell[/h3]
+[list][*]Faction Enchantments that defends you from death penalty.
+[/list]
+[/spoiler]
+[h2]Altars[/h2]
+By installing this mod, water altars will appear among the altars placed in fields and Nefias.
+[h1]Credits[/h1]
+[list][*]Original[list][*][url=https://store.steampowered.com/app/1067720/Hellsinker/]Hellsinker.[/url] [/list]
+[*]Programming[list][*][url=https://misskey.io/@Seacolor]Tomy[/url] [/list]
+[*]Illustration[list][*][url=https://x.com/ShiroganeFF]Hanzo[/url] [/list]
+[/list]</description>
+	<version>0.23.200</version>
+	<tags>Integration,Item,NPC</tags>
+	<visibility>Public</visibility>
+</Meta>
