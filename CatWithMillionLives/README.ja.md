@@ -3,7 +3,7 @@
 新しい信仰"魂のミリオンライヴズ"を追加します。
 この信仰はあなたやペットを死から遠ざけます。
 
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Seacolor/ElinMOD/blob/main/DanalinOfWater/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Seacolor/ElinMOD/blob/main/CatWithMillionLives/README.md)
 
 # 詳細
 
