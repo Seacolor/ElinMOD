@@ -37,6 +37,7 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 ### Drown
 
 - Possesses feats such as Fear from the Stars, See Invisible, and Underwater Breathing
+- Treated as Undead
 - Can use the Eye Of Insanity
 
 ### Amulet of the seas
