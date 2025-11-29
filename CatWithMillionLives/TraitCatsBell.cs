@@ -4,7 +4,7 @@
     {
         public override void WriteNote(UINote n, bool identified)
         {
-            if (EClass.pc.idFaith == "cwl_cat_with_millionlives")
+            if (owner != null && !owner.c_idDeity.IsEmpty() && owner.c_idDeity == EClass.pc.idFaith)
             {
                 base.WriteNote(n, identified);
                 if (identified)

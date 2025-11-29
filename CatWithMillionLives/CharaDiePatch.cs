@@ -9,7 +9,8 @@ namespace CatWithMillionLives
         {
             if (__instance.IsPC)
             {
-                if (EClass.pc.idFaith == "cwl_cat_with_millionlives" && EClass.pc.things.Find("cats_bell") != null)
+                Thing c = EClass.pc.things.Find("cats_bell");
+                if (c != null && !c.c_idDeity.IsEmpty() && c.c_idDeity == EClass.pc.idFaith)
                 {
                     Flag.ensurePreventDeathPanalty = true;
                 }
