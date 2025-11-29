@@ -11,6 +11,7 @@ This mod introduces a new faith, [b]"Cat with Million lives"[/b]. This faith wil
 [list][*]Corpses
 [*]bonito flakes
 [*]sake barrel
+[*]churyu
 [/list]
 [h2]Faith Bonuses[/h2]
 [list][*]Speed
@@ -46,7 +47,7 @@ By installing this mod, water altars will appear among the altars placed in fiel
 [*]Programming[list][*][url=https://misskey.io/@Seacolor]Tomy[/url] [/list]
 [*]Illustration[list][*][url=https://x.com/ShiroganeFF]Hanzo[/url] [/list]
 [/list]</description>
-	<version>0.23.200</version>
+	<version>0.23.237</version>
 	<tags>Integration,Item,NPC</tags>
 	<visibility>Public</visibility>
 </Meta>
