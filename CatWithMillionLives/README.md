@@ -13,6 +13,7 @@ This faith will protect you and your pets from death.
 - Corpses
 - bonito flakes
 - sake barrel
+- churyu
 
 ## Faith Bonuses
 
