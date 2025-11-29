@@ -42,8 +42,8 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 
 ### Amulet of the seas
 
-- Enchanted with Underwater Breathing, Charisma, and Swimming
-- Provides faction bonuses for all crafting skills
+- Comes with the Charisma enchantment
+- Provides faction enchantments for Water Breathing, Swimming, and every crafting skill
 
 ## Altars
 
