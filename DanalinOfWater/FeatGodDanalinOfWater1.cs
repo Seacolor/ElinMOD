@@ -18,13 +18,7 @@
             if (SAN >= 20)
             {
                 Note(Element.GetName("negateDimByInsanity"));
-            }
-            if (SAN >= 40)
-            {
                 Note(Element.GetName("negateConfusionByInsanity"));
-            }
-            if (SAN >= 50)
-            {
                 Note(Element.GetName("negateFearByInsanity"));
             }
             void Note(string s)

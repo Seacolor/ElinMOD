@@ -24,10 +24,10 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 ## Additional Effects from Insanity
 
 - 10: Detect Faith
-- 20: Immunity to dim caused by insanity
+- 20: Immunity to dim/confusion/fear caused by insanity
 - 30: See Invisible
-- 40: Immunity to confusion caused by insanity
-- 50: Immunity to fear caused by insanity
+- 40: Water Breathing
+- 50: Cosmic Horror 2
 
 ## Faith Rewards
 

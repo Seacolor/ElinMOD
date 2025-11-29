@@ -75,7 +75,7 @@ namespace DanalinOfWater
         {
             if (__instance.HasElement(293487))
             {
-                if (__instance.SAN.GetValue() >= 40)
+                if (__instance.SAN.GetValue() >= 20)
                 {
                     return null;
                 }
@@ -99,7 +99,7 @@ namespace DanalinOfWater
         {
             if (__instance.HasElement(293487))
             {
-                if (__instance.SAN.GetValue() >= 50)
+                if (__instance.SAN.GetValue() >= 20)
                 {
                     return null;
                 }

@@ -68,6 +68,14 @@ namespace DanalinOfWater
             {
                 __instance.faithElements.SetBase(ENC.seeInvisible, 1);
             }
+            if (SAN >= 40)
+            {
+                __instance.faithElements.SetBase(ENC.breathing, 1);
+            }
+            if (SAN >= 50)
+            {
+                __instance.faithElements.SetBase(FEAT.featCosmicHorror, 2);
+            }
             __instance.faithElements.SetParent(__instance);
         }
 
