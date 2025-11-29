@@ -18,7 +18,8 @@ namespace DanalinOfWater
                     }
                     __instance.map.poiMap.OccyupyPOI(r.points[0]);
                     List<Point> points = r.points;
-                    Thing thing = ThingGen.Create("altar_danalinofwater");
+                    Thing thing = ThingGen.Create("altar");
+                    (thing.trait as TraitAltar)?.SetDeity("cwl_danalinofwater");
                     if (points[0].Installed == null)
                     {
                         EClass._zone.AddCard(thing, points[0]).Install();

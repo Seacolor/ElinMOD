@@ -18,10 +18,10 @@ Other faith bonuses vary depending on the week.
 Additionally, the higher the insanity, the greater the faith bonuses become, and additional effects are activated.
 [h2]Additional Effects from Insanity[/h2]
 [list][*]10: Detect Faith
-[*]20: Immunity to dim caused by insanity
+[*]20: Immunity to dim/confusion/fear caused by insanity
 [*]30: See Invisible
-[*]40: Immunity to confusion caused by insanity
-[*]50: Immunity to fear caused by insanity
+[*]40: Water Breathing
+[*]50: Cosmic Horror 2
 [/list]
 [spoiler]
 [h2]Faith Rewards[/h2]
@@ -30,18 +30,19 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 [/olist]
 [h3]Drown[/h3]
 [list][*]Possesses feats such as Fear from the Stars, See Invisible, and Underwater Breathing
+[*]Treated as Undead
 [*]Can use the Eye Of Insanity
 [/list]
 [h3]Amulet of the seas[/h3]
-[list][*]Enchanted with Underwater Breathing, Charisma, and Swimming
-[*]Provides faction bonuses for all crafting skills
+[list][*]Comes with the Charisma enchantment
+[*]Provides faction enchantments for Water Breathing, Swimming, and every crafting skill
 [/list]
 [/spoiler]
 [h2]Altars[/h2]
 By installing this mod, water altars will appear among the altars placed in fields and Nefias.
 [h1]Notes[/h1]
 The redistribution of image assets used in this mod is strictly prohibited.</description>
-    <version>0.23.200</version>
+    <version>0.23.237</version>
     <tags>Integration,Item,NPC</tags>
     <visibility>Public</visibility>
 </Meta>

@@ -24,10 +24,10 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 ## Additional Effects from Insanity
 
 - 10: Detect Faith
-- 20: Immunity to dim caused by insanity
+- 20: Immunity to dim/confusion/fear caused by insanity
 - 30: See Invisible
-- 40: Immunity to confusion caused by insanity
-- 50: Immunity to fear caused by insanity
+- 40: Water Breathing
+- 50: Cosmic Horror 2
 
 ## Faith Rewards
 
@@ -37,12 +37,13 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 ### Drown
 
 - Possesses feats such as Fear from the Stars, See Invisible, and Underwater Breathing
+- Treated as Undead
 - Can use the Eye Of Insanity
 
 ### Amulet of the seas
 
-- Enchanted with Underwater Breathing, Charisma, and Swimming
-- Provides faction bonuses for all crafting skills
+- Comes with the Charisma enchantment
+- Provides faction enchantments for Water Breathing, Swimming, and every crafting skill
 
 ## Altars
 
