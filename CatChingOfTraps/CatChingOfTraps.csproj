@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CatChingOfTraps</RootNamespace>
+    <AssemblyName>CatChingOfTraps</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>D:\SteamLibrary\steamapps\common\Elin\Package\Mod_CatChingOfTraps\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>D:\SteamLibrary\steamapps\common\Elin\Package\Mod_CatChingOfTraps\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\BepInEx\core\0Harmony.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Core">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\BepInEx\core\BepInEx.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="BepInEx.Unity">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\BepInEx\core\BepInEx.Unity.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Elin">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Elin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Heathen.Steamworks">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Heathen.Steamworks.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Newtonsoft.Json.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Plugins.BaseCore">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Plugins.BaseCore.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Plugins.UI">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Plugins.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Reflex">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\Reflex.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\SteamLibrary\steamapps\common\Elin\Elin_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abilities\ActCatChingDropTrap.cs" />
+    <Compile Include="ModCatChingOfTraps.cs" />
+    <Compile Include="Patches\CardIsHiddenPatch.cs" />
+    <Compile Include="Patches\MapGenDungenOnGenerateTerrainPatch.cs" />
+    <Compile Include="Patches\TraitFloorSwitchOnSteppedPatch.cs" />
+    <Compile Include="Patches\ZoneGeneratePatch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\package.xml" />
+    <Content Include="Assets\preview.jpg" />
+    <Content Include="Assets\Texture\karakuroid.png" />
+    <Content Include="Assets\Texture\trappers_bracelet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="LangMod\EN\custom_sources.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LangMod\EN\Data\god_talk.xlsx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LangMod\EN\Data\religion_elements.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="LangMod\EN\Data\religion_offerings.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="README.ja.md" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="CopyAssets" AfterTargets="AfterBuild">
+    <ItemGroup>
+      <TextureFiles Include="assets\Texture\*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(TextureFiles)" DestinationFiles="@(TextureFiles->'$(TargetDir)Texture\%(Filename)%(Extension)')" SkipUnchangedFiles="true" OverwriteReadOnlyFiles="true" />
+    <PropertyGroup>
+      <SourcePreviewImage Condition="'$(Configuration)' == 'Debug' OR '$(Configuration)' == 'Release'">assets\preview.jpg</SourcePreviewImage>
+      <SourcePackageMeta Condition="'$(Configuration)' == 'Debug' OR '$(Configuration)' == 'Release'">assets\package.xml</SourcePackageMeta>
+    </PropertyGroup>
+    <Copy SourceFiles="$(SourcePreviewImage)" DestinationFiles="$(TargetDir)preview.jpg" SkipUnchangedFiles="true" OverwriteReadOnlyFiles="true" Condition="'$(SourcePreviewImage)' != ''" />
+    <Copy SourceFiles="$(SourcePackageMeta)" DestinationFiles="$(TargetDir)package.xml" SkipUnchangedFiles="true" OverwriteReadOnlyFiles="true" Condition="'$(SourcePackageMeta)' != ''" />
+  </Target>
+  <Target Name="RemovePdbFromRelease" AfterTargets="Build" Condition="'$(Configuration)' == 'Release' OR '$(Configuration)' == 'ReleaseNightly'">
+    <Delete Files="$(TargetDir)$(TargetName).pdb" />
+  </Target>
+</Project>
