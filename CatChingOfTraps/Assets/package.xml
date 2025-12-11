@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Meta>
+    <title>Cat-Ching of Traps</title>
+    <id>com.seacolorswind.cat_ching_of_traps</id>
+    <author>Tomy</author>
+    <loadPriority>100</loadPriority>
+    <description>[h1]Overview[/h1]
+Adds a new religion, [b]“Cat-Ching of Traps.”[/b]
+This faith grants techniques for making the most of traps.
+[h1]Details[/h1]
+[h2]Offerings[/h2]
+[list][*]Corpse
+[*]Stone
+[*]Sake barrel
+[/list]
+[h2]Passive[/h2]
+[list][*]Perception
+[*]Spot Hidden
+[*]Disarm Trap
+[/list]
+[h2]Bonuses[/h2]
+[list][*]Allows the worshipper to see traps.
+[*]Increases the number of traps that appear in Nefia dungeons.
+[/list]
+[h2]Rewards[/h2]
+[spoiler]
+[olist][*]Karakuroid (Pet)
+[*]Trapper's Bracelet (Artifact)
+[/olist]
+[h3]Nine-Lives Bakeneko[/h3]
+[list][*]Possesses the feat Arcane Core 1.
+[*]Can use Gravity and Drop Trap.
+[*]Drop Trap places a random trap beneath its feet.
+[/list]
+[h3]Trapper's Bracelet[/h3]
+[list][*]Includes a faction enchantment that enables the detection, avoidance, and utilization of traps.
+[/list]
+[/spoiler]
+[h2]Altars[/h2]
+After installing this mod, additional Trap Altars will appear among the altars placed in the fields and in Nefia.</description>
+    <version>0.23.237</version>
+    <tags>Integration,Item,NPC</tags>
+    <visibility>Private</visibility>
+</Meta>

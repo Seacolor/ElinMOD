@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DanalinOfWater", "DanalinOf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatWithMillionLives", "CatWithMillionLives\CatWithMillionLives.csproj", "{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CatChingOfTraps", "CatChingOfTraps\CatChingOfTraps.csproj", "{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6641F63D-2FEE-42F5-BA85-A5A6611A1FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070CA7C6-5F94-4ACD-BBAC-C7EC50AAAA8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
