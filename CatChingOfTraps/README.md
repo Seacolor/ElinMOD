@@ -32,7 +32,7 @@ This faith grants techniques for making the most of traps.
 1. Karakuroid (Pet)
 2. Trapper's Bracelet (Artifact)
 
-### Nine-Lives Bakeneko
+### Karakuroid
 
 - Possesses the feat Arcane Core 1.
 - Can use Gravity and Drop Trap.
