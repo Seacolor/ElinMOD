@@ -31,6 +31,8 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 
 ## Faith Rewards
 
+[spoiler]
+
 1. Drown (Pet)
 2. Amulet of the seas (Artifact)
 
@@ -44,6 +46,8 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 
 - Comes with the Charisma enchantment
 - Provides faction enchantments for Water Breathing, Swimming, and every crafting skill
+
+[/spoiler]
 
 ## Altars
 
