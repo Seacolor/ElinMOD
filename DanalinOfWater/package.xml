@@ -23,8 +23,8 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 [*]40: Water Breathing
 [*]50: Cosmic Horror 2
 [/list]
-[spoiler]
 [h2]Faith Rewards[/h2]
+[spoiler]
 [olist][*]Drown (Pet)
 [*]Amulet of the seas (Artifact)
 [/olist]
@@ -42,7 +42,7 @@ Additionally, the higher the insanity, the greater the faith bonuses become, and
 By installing this mod, water altars will appear among the altars placed in fields and Nefias.
 [h1]Notes[/h1]
 The redistribution of image assets used in this mod is strictly prohibited.</description>
-    <version>0.23.237</version>
+    <version>0.23.267</version>
     <tags>Integration,Item,NPC</tags>
     <visibility>Public</visibility>
 </Meta>

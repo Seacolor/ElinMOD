@@ -4,7 +4,7 @@ using HarmonyLib;
 
 namespace DanalinOfWater
 {
-    [BepInPlugin("com.seacolorswind.danalin_of_water", "Danalin of Water", "2.0.0")]
+    [BepInPlugin("com.seacolorswind.danalin_of_water", "Danalin of Water", "2.0.1")]
     public class ModDanalinOfWater : BaseUnityPlugin
     {
         private void Awake()
